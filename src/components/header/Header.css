@@ -1,0 +1,73 @@
+body {
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 80%;
+    max-width: 935px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+header {
+
+    border: 1px solid rgba(0, 0, 0, 0.262);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 60px;
+
+}
+
+
+
+.logoinstagram {
+
+
+    width: 103px;
+    height: 29px;
+}
+
+.icons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.button_header {
+    cursor: pointer;
+}
+
+.search__bar {
+    align-self: center;
+    padding: 3px 16px;
+    margin-left: 20px;
+    background-color: #EFEFEF;
+    outline: 0;
+    border: 0;
+    border-radius: 8px;
+    width: 24%;
+    height: 36px;
+    font-size: 16px
+}
+
+.userpic {
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.App_header {
+    position: fixed;
+    height: 56px;
+    width: 100%;
+}
